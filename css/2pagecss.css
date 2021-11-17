@@ -1,0 +1,379 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fafafa;
+}
+
+header a:hover{
+    color: #FFFFFF;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+}
+
+main{
+    height: 100%;
+    padding-top: 68px;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.YOUR_JOURNEY{
+    display: inline-block;
+    max-width: 219px;
+    margin-top: 14px;
+    margin-bottom: 13px;
+}
+
+header{
+    background-color: #181818;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+
+header a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'PT Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 219px;
+    opacity: 1;
+}
+
+.leftpart{
+    height: 100%;
+}
+
+h1{
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 45px;
+    line-height: 83px;
+    color: #242424;
+    background: white;
+    border-bottom: 1px solid rgb(139, 139, 139);
+}
+
+.flex{
+    display: flex;  
+}
+
+.place{
+    background-color: #ffffff;
+    display: inline-block;
+    padding: 5px;
+    border: 1px  solid #909090;
+    border-radius: 10px;
+    margin: 10px 20px 0px 20px;
+    transition: 0.5s;
+}
+
+.place:hover{
+    background-color: #e7e7e7;
+}
+
+.leftside{
+    margin-left: 13px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.rightside2{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.rightside{
+    margin-left: 13px;
+}
+
+.country h2{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 29px;
+    color: #1088CB;
+}
+
+.country{
+    width: 213px;
+}
+
+.country p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 14px;
+    color: #1088CB;
+    padding-left: 1px;
+}
+
+.hotel h2{
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 20px;
+    color: #1C1C1C;
+}
+
+.hotel p{
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #1C1C1C;
+}
+
+.vehicle img{
+    width: 36px;
+    height: 36px;
+    margin-top: 7px;
+    margin-right: 10px;
+}
+
+.vehicle{
+    /* width: 182px; */
+    display: flex;
+    margin-bottom: 14px;
+}
+
+.vehicle_text h2{
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 31px;
+    color: #1C1C1C;
+}
+
+.vehicle_text p{
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 20px;
+    color: #1C1C1C;
+}
+
+.vehicle_text .p{
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 28px;
+    color: #858585;
+}
+
+.time h2{
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 20px;
+    color: #1C1C1C;
+}
+
+.time p{
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    color: #1C1C1C;
+    margin-top: 4px;
+}
+
+.picture_of_the_city{
+    width: 24.7%;
+    height: 100%;
+}
+
+.sides{
+    width: 75.3%;
+}
+
+.hotel img{
+    width: 150px;
+}
+
+.time{
+    margin-bottom: 10px;
+}
+
+.places{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.leftpart{
+    overflow-y: scroll;
+    width: 35%;
+    min-width: 612px;
+}
+
+main{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+aside{
+    width: 65%;
+    border-left: 2px solid #1d1d1d;
+}
+
+.search_input2{
+    width: 94%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.search_input1{
+    margin-bottom: 0!important;
+    top: 10px;
+    left: 10px;
+    width: 500px;
+}
+
+.search_input1 button{
+    background-color: white;
+}
+
+iframe{
+    margin-top: -38px;
+}
+
+.search_input1{
+    width: 90%;
+    max-width: 500px;
+}
+
+
+
+.justify-content-space-around{
+    justify-content: space-around;
+}
+
+@media (max-width: 1350px){
+    .search_input2{
+        width: 671px;
+    }
+
+    .flex_wrap{
+        flex-wrap: wrap;
+    }
+
+    main{
+        flex-direction: column;
+    }
+
+    .leftpart{
+        overflow-y: unset;
+        width: 100%;
+        min-width: 320px;
+    }
+
+    aside{
+        width: 100%;
+    }
+
+    iframe{
+        width: 100%;
+        height: 90vh;
+    }
+}
+
+@media (max-width: 711px){
+    .search_input2{
+        width: 94%;
+    }
+}
+
+@media (max-width: 618px){
+    .picture_of_the_city{
+        width: 50%;
+    }
+
+    .sides{
+        width: 50%;
+    }
+}
+
+@media (max-width: 527px){
+    .country{
+        width: auto;
+    }
+}
+
+@media (max-width: 405px){
+    .picture_of_the_city{
+        display: none;
+    }
+
+    .sides{
+        width: 100%;
+        flex-wrap: nowrap;
+    }
+    
+}
+
+@media (max-width: 370px){
+    .sides p{
+        font-size: 15px;
+    }
+
+    .sides h2{
+        font-size: 17px;
+    }
+
+    .sides .country h2{
+        font-size: 28px;
+    }
+
+    .sides .vehicle h2{
+        font-size: 21px;
+    }
+
+    .rightside{
+        margin-left: 6px;
+    }
+
+    .leftside{
+        margin-left: 6px;
+    }
+}
